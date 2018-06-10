@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_title"
+        tools:text="News Title"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/section_name"
+            tools:text="Section Name"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/publish_date"
+            tools:text="10/06/2018"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            />
+    </LinearLayout>
+
+</LinearLayout>
